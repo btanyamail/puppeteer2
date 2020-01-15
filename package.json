@@ -1,0 +1,24 @@
+{
+  "name": "puppeteer2",
+  "version": "1.0.0",
+  "description": "aqa",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout=30000 ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btanyamail/puppeteer2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btanyamail/puppeteer2/issues"
+  },
+  "homepage": "https://github.com/btanyamail/puppeteer2#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "puppeteer": "^2.0.0"
+  }
+}
